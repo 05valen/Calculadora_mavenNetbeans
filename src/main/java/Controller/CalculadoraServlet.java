@@ -64,10 +64,7 @@ public class CalculadoraServlet extends HttpServlet {
 		request.getSession().setAttribute("resultado", resultado);
 		response.sendRedirect("index.jsp");
                 
-                
-	/**
-	 * valen
-	 */
+                        System.out.println("Probando ");
 		
 	}
 
