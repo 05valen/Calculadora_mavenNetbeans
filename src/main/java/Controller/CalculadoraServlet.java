@@ -65,7 +65,7 @@ public class CalculadoraServlet extends HttpServlet {
 		response.sendRedirect("index.jsp");
                 
                    //pprueba alarma
-                   //pprueba alarma  2
+                   
 		
 	}
 
