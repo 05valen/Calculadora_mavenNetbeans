@@ -45,7 +45,10 @@ public class CalculadoraServlet extends HttpServlet {
 			break;
 		case 2:
 			resultado = "" + (n1-n2);
+                        default:
 			break;
+                 
+			
 		case 3:
 			resultado = "" + (n1*n2);
 			break;
@@ -57,8 +60,7 @@ public class CalculadoraServlet extends HttpServlet {
 			}
 			
 			break;
-		default:
-			break;
+		
 		}
 		
 		request.getSession().setAttribute("resultado", resultado);
