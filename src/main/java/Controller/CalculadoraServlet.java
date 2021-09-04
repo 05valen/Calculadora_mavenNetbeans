@@ -45,7 +45,7 @@ public class CalculadoraServlet extends HttpServlet {
 			break;
 		case 2:
 			resultado = "" + (n1-n2);
-                       // default:
+                     default:
 			break;
                  
 			
